@@ -1,0 +1,190 @@
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exam Web Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body bgcolor="grey">
+    <div id="layout">
+        <div id="header">
+            <img src="Header2.jpg" class="header">
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="pertemuan5_1-5.html">Beranda</a></li>
+                <li><a href="profil.html">Profil</a></li>
+            </ul>
+        </div>
+
+        <div id="runningtext">
+            <marquee behavior="scroll" scrollmount="3" onmouseover="this.stop();" onmouseout="this.start();"
+                direction="left">
+                <b>Assalamu'alaikum, Selamat Datang!</b>
+            </marquee>
+        </div>
+
+        <div id="Isi">
+            <div class="Isipostingall">
+                <!--Tugas Pertemuan 4-->
+                <h2>Pertemuan 5</h2>
+                <p>Membuat Tugas:</p>
+                <center>
+                    <h3>Formulir Pendaftaran</h3>
+                </center>
+                <fieldset style="width: 60%; height: 50%; margin: auto;">
+                    <legend>
+                        <p><b>Input Data</b></p>
+                    </legend>
+                    <form style="margin: 50px;">
+                        <table width="100%">
+                            <tr>
+                                <td>Nama</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="text" name="nama" size="40" required
+                                        placeholder="-----Masukkan Nama Anda-----">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Jenis Kelamin</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="radio" value="L" checked name="jenisk">Laki-laki
+                                    <input type="radio" name="jenisk" value="P">Perempuan
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Alamat</td>
+                                <td>:</td>
+                                <td>
+                                    <textarea name="alamat" size="40" style="width: 70%; height: 100px;"></textarea>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Provinsi</td>
+                                <td>:</td>
+                                <td><select size="1" name="provinsi">
+                                        <option>DKI Jakarta</option>
+                                        <option>DI Yogyakarta</option>
+                                        <option>Banten</option>
+                                        <option>Jawa Barat</option>
+                                        <option>Jawa Tengah</option>
+                                        <option>Jawa Timur</option>
+                                        <option>Bali</option>
+                                        <option>Nusa Tenggara Timur</option>
+                                        <option>Nusa Tenggara Barat</option>
+                                        <option>Gorontalo</option>
+                                        <option>Sulawesi Barat</option>
+                                        <option>Sulawesi Tengah</option>
+                                        <option>Sulawesi Utara</option>
+                                        <option>Sulawesi Tenggara</option>
+                                        <option>Sulawesi Selatan</option>
+                                        <option>Maluku Utara</option>
+                                        <option>Maluku Utara</option>
+                                        <option>Papua Barat</option>
+                                        <option>Papua (Daerah Khusus)</option>
+                                        <option>Kalimantan Barat </option>
+                                        <option>Kalimantan Timur</option>
+                                        <option>Kalimantan Selatan</option>
+                                        <option>Kalimantan Tengah</option>
+                                        <option>Kalimantan Utara</option>
+                                        <option>Aceh</option>
+                                        <option>Sumatera Utara</option>
+                                        <option>Sumatera Selatan</option>
+                                        <option>Sumatera Barat</option>
+                                        <option>Bengkulu</option>
+                                        <option>Riau</option>
+                                        <option>Kepulauan Riau</option>
+                                        <option>Jambi</option>
+                                        <option>Lampung</option>
+                                        <option>Bangka Belitung</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Hobi</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="checkbox" name="hobi" value="basket">basket
+                                    <input type="checkbox" name="hobi" value="voly">voly
+                                    <input type="checkbox" name="hobi" value="tenis">Tenis
+                                    <input type="checkbox" name="hobi" value="bola">Bola Sepak
+                                    <input type="checkbox" name="hobi" value="berenang">Berenang
+                                    <input type="checkbox" name="hobi" value="membaca">Membaca
+                                    <input type="checkbox" name="hobi" value="lainnya">Lainnya
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Lampirkan</td>
+                                <td>:</td>
+                                <td><input type="file" name="lampir"></td>
+                            </tr>
+                        </table>
+                        <br>
+                        <p>
+                            <input type="submit" value="Submit" name="submit">
+                            <input type="reset" value="Reset" name="reset">
+                        </p>
+                    </form>
+                </fieldset>
+                <br>
+
+                <h3>Latihan :</h3>
+                <ol>
+                    <li>sebutkan kegunaan radio di HTML ?</li>
+                    <p>Jawab: Tag Input type radio ini berfungsi untuk membuat pilihan tombol yang diisi dengan cara
+                        memilih dari salah
+                        satu tombol radio yang ada.</p>
+                    <li>sebutkan kegunaan checkbox di HTML ?</li>
+                    <p>Jawab: Tag Input type checkbox berfungsi untuk membuat checkbox atau kotak isian yang bisa
+                        semuanya diisi
+                        dengan cara menceklist kotak tersebut</p>
+                    <li>Sebutkan kegunaan text area di html ?</li>
+                    <p>Jawab: Tag textarea ini digunakan sebagai inputan data yang lebih dari 1 baris, atau dalam artian
+                        dapat menampung banyak teks/tulisan. </p>
+                    <li>Sebutkan kegunaan type file di HTML?</li>
+                    <p>Jawab: Atribut type ini berfungsi untuk mengidentifikasi suatu value dari masing-masing fungsi
+                        yang terdapat pada tipe data tersebut. (Ini Menurut Saya Pribadi) </p>
+                    <li>Sebutkan kegunaan fieldset di html ?</li>
+                    <p>Jawab: Tag atau elemen fieldset ini digunakan untuk merepresentasikan pengelompokkan daftar input
+                        pada sebuah form atau yang bisa dilihat seperti ada garis yang mengelilingi form tersebut.</p>
+                    <li>Buatkan saya web html yang menggabungkan semua latihan materi kalian...</li>
+                    <p>Jawab:<a href="pertemuan5_1-5.html">Ada Disini Semua.</a></p>
+                    <li>jawaban nomor 1 sd 5, dibuat dengan coding html, dengan pertanyaan dan jawaban.</li>
+                    <p>Jawab: Beres Pak :D</p>
+                    <li>dibuat link dalam 2 web html nanti yang akan dibuat</li>
+                    <p>Jawab: Seperti Contoh Dibawah Ini.</p>
+                </ol>
+
+                <div class="Menuback">
+                    <center>
+                        <p>
+                            &rarr;
+                            <a href="pertemuan5_1-5.html">1</a>
+                            <a href="pertemuan2.html">2</a>
+                            <a href="pertemuan3.html">3</a>
+                            <a href="pertemuan4.html">4</a>
+                            <a href="pertemuan5.html">5</a>
+                            <a href="pertemuan6.html">6</a>
+                            &larr;
+                        </p>
+                    </center>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div id="footer"> &copy 2021, Created by Muhammad Faiz Aqil Fathoni </div>
+    </div>
+</body>
+
+</html>
